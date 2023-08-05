@@ -1,2 +1,2 @@
-# [purusoni.me](https://purusoni.me)
-Personal website for Puru Soni @ [purusoni.me](https://purusoni.me)
+# [purusoni.com](https://purusoni.com)
+Personal website for Puru Soni @ [purusoni.com](https://purusoni.com)
