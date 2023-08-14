@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  header.masthead {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #parallex {
+    background-attachment: scroll;
+  }
+}
+

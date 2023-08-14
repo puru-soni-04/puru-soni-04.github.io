@@ -1,0 +1,9 @@
+.card_img {
+  max-width: 100%;
+}
+
+.card {
+  max-width: 400px;
+  min-width: 300px;
+}
+
