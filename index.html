@@ -12,23 +12,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/cards.css">
     <link rel="stylesheet" href="assets/css/parallex.css">
+    <link rel="stylesheet" href="assets/css/scroll_to_element.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.html" style="/*color: var(--bs-body-bg);*/">Puru Soni</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <div class="container"><a class="navbar-brand" href="index.html" style="/*color: var(--bs-body-bg);*/">Puru Soni&nbsp; &nbsp;#OPENTOWORK</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html" style="/*color: var(--bs-body-bg);*/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html" style="/*color: var(--bs-body-bg);*/">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html" style="/*color: var(--bs-body-bg);*/">Contact us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="post.html" style="/*color: var(--bs-body-bg);*/">Blog Post</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#parallex" style="/*color: var(--bs-body-bg);*/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#work-experience">Work Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#projects">Personal Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#parallex">Contact Me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header id="parallex" class="masthead" style="background-image: url('assets/img/pexels-markus-spiske-1921326.jpg');">
+    <header id="parallex" class="masthead" style="background-image: url('assets/img/pexels-pixabay-256502.jpg');">
         <div class="overlay"></div>
         <div class="container" style="/*max-height: 400px;*/">
             <div class="row" style="padding-top: 95px;padding-bottom: 35px;">
@@ -37,8 +38,8 @@
                 </div>
                 <div class="col-md-10 col-lg-8 mx-auto position-relative" style="/*margin-top: 20px;*/ display: flex;justify-content: center;align-items: center;">
                     <div class="site-heading" style="padding-top: 30px;padding-bottom: 0px;">
-                        <h1 style="color: var(--bs-danger);">Caution: Web Development Ahead</h1>
-                        <h1 style="font-size: 46px;">Puru Soni</h1><span class="subheading" style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <h1 style="font-size: 46px;">Puru Soni</h1>
+                        <h1 style="font-size: 22px;"><strong>#OPENTOWORK</strong></h1><span class="subheading" style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
                         <ul class="list-inline text-center" style="margin-top: 30px;">
                             <li class="list-inline-item" style="margin-right: 0px;"><a href="https://github.com/puru-soni-04"><span class="fa-stack fa-lg" style="display: flex;justify-content: center;align-items: center;"><i class="fa fa-circle fa-stack-2x" style="color: var(--bs-secondary-bg);font-size: 47.3333px;"></i><i class="fa fa-github fa-stack-1x fa-inverse" style="color: var(--bs-body-color);font-size: 30px;"></i></span></a></li>
                             <li class="list-inline-item" style="margin-right: 0px;"><a href="https://www.linkedin.com/in/purusoni/"><span class="fa-stack fa-lg" style="display: flex;justify-content: center;align-items: center;"><i class="fa fa-circle fa-stack-2x" style="color: var(--bs-body-bg);font-size: 47.3333px;"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse" style="color: var(--bs-body-color);font-size: 25px;"></i></span></a></li>
@@ -52,7 +53,7 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-xl-8" style="margin-right: 30px;margin-left: 5px;"><!-- Section: Timeline -->
+            <div class="col-xl-8" id="work-experience" style="margin-right: 30px;margin-left: 5px;"><!-- Section: Timeline -->
 <section class="py-5">
   <ul class="timeline">
     <li class="timeline-item mb-5">
@@ -105,7 +106,7 @@
   </ul>
 </section>
 <!-- Section: Timeline --></div>
-            <div class="col" style="margin-bottom: 30px;">
+            <div class="col" id="projects" style="margin-bottom: 30px;">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
                         <div class="card" style="margin-bottom: 10px;">
@@ -154,8 +155,9 @@
     </div>
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row" id="contact-me">
                 <div class="col-md-10 col-lg-8 mx-auto">
+                    <p>About Me: Phasellus sed dignissim augue, ac laoreet velit. Nunc eu mi id neque aliquam interdum.</p>
                     <ul class="list-inline text-center">
                         <li class="list-inline-item"><a href="https://github.com/puru-soni-04"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li>
                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/purusoni/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
